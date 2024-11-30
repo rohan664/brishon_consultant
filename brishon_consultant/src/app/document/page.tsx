@@ -3,9 +3,7 @@ import { CircleChevronDown,CircleCheck  } from 'lucide-react';
 import { useState } from 'react';
 
 function Documnet(){
-    const[isPopup,setIsPopup] = useState<Boolean>(false)
-
-
+    const[isPopup,setIsPopup] = useState<boolean>(false)
     return(
         <>
             <section className="w-full h-screen lg:p-24 flex justify-center flex-col items-center gap-20">
@@ -25,7 +23,7 @@ function Documnet(){
                             <div>
                                 <CircleCheck size={30} color='#38b000'/>
                             </div>
-                            <p>Form – I (Draft will be provided)</p>
+                            <p>Form I (Draft will be provided)</p>
                         </div>
                         <div className='flex gap-4 items-center'>
                             <div>
@@ -37,7 +35,7 @@ function Documnet(){
                             <div>
                                 <CircleCheck size={30} color='#38b000'/>
                             </div>
-                            <p>CA certificate on CA’s letterhead (with a turnover for last three financial year)</p>
+                            <p>CA certificate on CAs letterhead (with a turnover for last three financial year)</p>
                         </div>
                         <div className='flex gap-4 items-center'>
                             <div>

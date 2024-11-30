@@ -2,7 +2,6 @@ import Image from "next/image";
 import phone from "@/app/assets/call.png"
 import email from "@/app/assets/send-mail.png"
 import address from "@/app/assets/email.png"
-import building from "@/app/assets/buildings.jpg"
 
 function Footer(){
     return (

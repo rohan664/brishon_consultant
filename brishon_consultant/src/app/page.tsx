@@ -18,7 +18,7 @@ export default function Home() {
   }
   return (
     <>
-      <section className="w-full h-screen relative " ref={ref}>
+      <section className="w-full h-screen relative" ref={ref}>
         <div className="bg-blue-100 w-full h-screen absolute bg-opacity-20 flex flex-col justify-center items-center z-10">
           <p className="text-white lg:text-3xl text-2xl font-bold text-center">Empowering Global Trade with</p>
           <p className="text-primarydark lg:text-5xl text-2xl font-bold italic text-center">Trusted Certifications.</p>
