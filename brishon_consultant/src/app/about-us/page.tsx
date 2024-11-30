@@ -1,6 +1,6 @@
 import { Handshake,ShieldCheck,GlobeLock  } from 'lucide-react';
 import Image from 'next/image';
-import teamMember from '@/public/assets/team_discussion.png'
+import teamMember from '@/app/assets/team_discussion.png'
 
 function About(){
     return(

@@ -1,8 +1,8 @@
 'use client'
 import {motion} from "motion/react"
 import Image from "next/image";
-import ThreeCards from "@/src/app/components/cards"
-import Container from "@/public/assets/containers.png"
+import ThreeCards from "@/app/components/cards"
+import Container from "@/app/assets/containers.png"
 import { useRouter } from "next/navigation";
 import { useState } from "react";
 import { useInView } from "react-intersection-observer";

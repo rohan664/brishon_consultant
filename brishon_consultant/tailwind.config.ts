@@ -29,9 +29,9 @@ export default {
         '5xl': '5rem',
       },
       backgroundImage:{
-        'teams':"url('@/public/assets/buildings.jpg')",
-        'contact':"url('@/public/assets/contact_teams.png')",
-        'about':"url('@/public/assets/team_discussion.png')"
+        'teams':"url('@/app/assets/buildings.jpg')",
+        'contact':"url('@/app/assets/contact_teams.png')",
+        'about':"url('@/app/assets/team_discussion.png')"
       },
       screens: {
         'sm': '425px',

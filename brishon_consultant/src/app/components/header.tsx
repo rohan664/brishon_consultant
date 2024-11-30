@@ -1,7 +1,5 @@
 'use client'
 import { useRouter } from "next/navigation"
-import menu from "@/public/assets/menu.svg"
-import Image from "next/image"
 import { AlignRight  } from 'lucide-react';
 import { useState } from "react";
 

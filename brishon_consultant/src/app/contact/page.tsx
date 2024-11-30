@@ -1,5 +1,5 @@
 import Image from "next/image"
-import contact from "@/public/assets/contact.png"
+import contact from "@/app/assets/contact.png"
 
 function Contact() {
     return(

@@ -1,7 +1,7 @@
 import Image from "next/image";
-import phone from "@/public/assets/call.png"
-import email from "@/public/assets/send-mail.png"
-import address from "@/public/assets/email.png"
+import phone from "@/app/assets/call.png"
+import email from "@/app/assets/send-mail.png"
+import address from "@/app/assets/email.png"
 
 function Footer(){
     return (
