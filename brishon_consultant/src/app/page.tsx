@@ -24,7 +24,7 @@ export default function Home() {
           <p className="text-primarydark lg:text-5xl text-2xl font-bold italic text-center">Trusted Certifications.</p>
         </div>
         {isPlaying && <video className="absolute top-0 left-0 w-full h-screen object-cover" preload='metadata' playsInline autoPlay muted loop>
-          <source src="/assets/background_new.mp4" type="video/mp4" />
+          <source src='/assets/background_new.mp4' type="video/mp4" />
         </video>}
       </section>
       <section className="h-screen w-full">

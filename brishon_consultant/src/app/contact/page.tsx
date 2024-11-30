@@ -16,7 +16,7 @@ function Contact() {
                 />
             </div>
        </section>
-       <section className="flex items-center justify-center p-8">
+       <section className="flex items-center justify-center p-8 bg-slate-200">
             <div className="bg-blue-900 bg-opacity-50 lg:py-16 lg:px-32 p-4">
                 <div className="flex gap-4 flex-col">
                     <div className=" flex flex-col items-start">

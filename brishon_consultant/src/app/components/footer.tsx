@@ -2,11 +2,11 @@ import Image from "next/image";
 import phone from "@/app/assets/call.png"
 import email from "@/app/assets/send-mail.png"
 import address from "@/app/assets/email.png"
+import building from "@/app/assets/buildings.jpg"
 
 function Footer(){
     return (
-        <div className="flex items-center justify-center gap-4 flex-col bg-[url('@/app/assets/send-mail.png')] bg-cover relative p-8">
-            <div className="absolute bg-black bg-opacity-40 w-full h-full"></div>
+        <div className="flex items-center justify-center gap-4 flex-col bg-cover relative p-8 bg-[#495057]">
             <div className="flex flex-col z-10">
             <p className="font-extrabold text-white text-2xl">Brishon Consultant.</p>
             </div> 
