@@ -5,7 +5,7 @@ import address from "@/app/assets/email.png"
 
 function Footer(){
     return (
-        <div className="flex items-center justify-center gap-4 flex-col bg-teams bg-cover relative p-8">
+        <div className="flex items-center justify-center gap-4 flex-col bg-[url('@/app/assets/send-mail.png')] bg-cover relative p-8">
             <div className="absolute bg-black bg-opacity-40 w-full h-full"></div>
             <div className="flex flex-col z-10">
             <p className="font-extrabold text-white text-2xl">Brishon Consultant.</p>
