@@ -43,7 +43,7 @@ export default function Home() {
         <motion.div
           className="flex flex-col lg:flex-row px-[2rem] lg:px-[5rem] lg:items-start md:items-center justify-center gap-2 lg:gap-8"
           initial={{opacity:0}}
-          whileInView={{ opacity:1, transition:{ duration:1, delay:1, ease:"easeIn" } }}
+          whileInView={{ opacity:1, transition:{ duration:1, delay:0.5, ease:"easeIn" } }}
         >
           <Image
             src={Container}

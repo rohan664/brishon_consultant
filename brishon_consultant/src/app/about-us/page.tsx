@@ -35,7 +35,7 @@ function About(){
                                     <p className="text-2xl font-extrabold text-[#fb8500]">Our Vision</p>
                                     <p className="after:content-[''] after:flex after:w-20 after:h-[1px] md:after:h-[3px] after:bg-[#023047] after:mt-2"></p>
                                 </div>
-                                <p className="italic font-bold text-justify">To empower exporters worldwide with trusted, efficient certification services that enable seamless global trade</p>
+                                <p className="italic font-bold text-justify">To empower exporters worldwide with trusted, efficient certification services that enable seamless pan India</p>
                             </div>
                             <div className="flex-1 flex gap-4 flex-col">
                                 <div>
@@ -54,15 +54,15 @@ function About(){
                     <p className="text-2xl font-bold text-primarydark">Trusted by exporters</p>
                 </div>
                 <div className='flex flex-col md:flex-row items-center justify-center gap-8 w-full'>
-                        <div className='flex gap-4 items-center flex-col'>
+                        <div className='flex gap-4 items-center flex-col text-center'>
                             <Handshake color='#03045e' size={50}/>
                             <p className='font-medium'>Trusted by exporters worldwide.</p>
                         </div>
-                        <div className='flex items-center gap-4 flex-col'>
+                        <div className='flex items-center gap-4 flex-col text-center'>
                             <ShieldCheck color='#03045e' size={50}/>
                             <p className='font-medium'>Accredited and compliant certifications.</p>
                         </div>
-                        <div className='flex items-center gap-4 flex-col'>
+                        <div className='flex items-center gap-4 flex-col text-center'>
                             <GlobeLock color='#03045e' size={50}/>
                             <p className='font-medium'>Comprehensive and fast processing.</p>
                         </div>

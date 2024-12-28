@@ -22,7 +22,7 @@ function Header(){
             <div className="px-4 cursor-pointer flex flex-row gap-10">
               <div className="hidden flex-row gap-10 text-black font-semibold items-center cursor-pointer md:flex">
                 <p className="text-base hover:text-primarylight ease-in-out duration-600" onClick={()=>{handleNavigation("/")}}>Home</p>
-                <p className="text-base hover:text-primarylight ease-in-out duration-600" onClick={()=>{handleNavigation("/document")}}>Documnet</p>
+                <p className="text-base hover:text-primarylight ease-in-out duration-600" onClick={()=>{handleNavigation("/document")}}>Document</p>
                 <p className="text-base hover:text-primarylight ease-in-out duration-600" onClick={()=>{handleNavigation("/about-us")}}>About Us</p>
                 <p className="text-base hover:text-primarylight ease-in-out duration-600" onClick={()=>{handleNavigation("/contact")}}>Contact Us</p>
               </div>
@@ -36,7 +36,7 @@ function Header(){
                   <div className="bg-white rounded-lg absolute top-12 right-10">
                     <div className="flex flex-col gap-4 text-black font-semibold items-start cursor-pointer p-4">
                         <p className="text-base hover:text-primarylight ease-in-out duration-600" onClick={()=>{handleMobileNavigation("/")}}>Home</p>
-                        <p className="text-base hover:text-primarylight ease-in-out duration-600" onClick={()=>{handleMobileNavigation("/document")}}>Documnet</p>
+                        <p className="text-base hover:text-primarylight ease-in-out duration-600" onClick={()=>{handleMobileNavigation("/document")}}>Document</p>
                         <p className="text-base hover:text-primarylight ease-in-out duration-600" onClick={()=>{handleMobileNavigation("/about-us")}}>About Us</p>
                         <p className="text-base hover:text-primarylight ease-in-out duration-600" onClick={()=>{handleMobileNavigation("/contact")}}>Contact Us</p>
                       </div>
