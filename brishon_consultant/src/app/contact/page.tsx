@@ -1,12 +1,10 @@
 'use client'
 import Image from "next/image"
 import contact from "@/app/assets/contact.png"
-import React, { FormEvent, useState ,useRef} from "react"
+import React, { FormEvent,useRef} from "react"
 import { useForm, ValidationError } from '@formspree/react';
 import { toast,ToastContainer } from "react-toastify";
 import 'react-toastify/dist/ReactToastify.css'
-
-const Context = React.createContext({ name: 'Default' });
 
 function Contact() {
 
@@ -22,7 +20,6 @@ function Contact() {
         handleSubmit
         if (formRef.current) {
             const formData = new FormData(formRef.current);
-    
             formRef.current.reset();
         }
     }

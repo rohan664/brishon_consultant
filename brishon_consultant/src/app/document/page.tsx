@@ -23,7 +23,7 @@ function Documnet(){
             response.blob().then((blob) => {
                 const fileURL =
                     window.URL.createObjectURL(blob);
-                let alink = document.createElement("a");
+                const alink = document.createElement("a");
                 alink.href = fileURL;
                 alink.download = "Checklist.pdf";
                 alink.click();
