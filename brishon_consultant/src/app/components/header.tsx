@@ -18,7 +18,7 @@ function Header(){
 
     return(
         <div className="w-full flex item-center justify-between p-4 rounded-b-[3rem] bg-white z-20 fixed bg shadow-lg shadow-grey-500/50">
-            <p className="text-primary font-bold text-large px-4 cursor-pointer">Brishon Consultant</p>
+            <p className="text-primary font-bold text-large px-4 cursor-pointer">Brishon Agency</p>
             <div className="px-4 cursor-pointer flex flex-row gap-10">
               <div className="hidden flex-row gap-10 text-black font-semibold items-center cursor-pointer md:flex">
                 <p className="text-base hover:text-primarylight ease-in-out duration-600" onClick={()=>{handleNavigation("/")}}>Home</p>
