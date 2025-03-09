@@ -17,7 +17,7 @@ function Footer(){
                     </div>
                     <div className="flex items-center gap-4">
                         <Image src={email} alt="phone" height={40}/>
-                        <p className="text-sm md:text-base text-white">brishonshipcons09@gmail.com</p>
+                        <p className="text-sm md:text-base text-white">brishonshipcons09@gmail.commm</p>
                     </div>
                 </div>
                 <div className="flex items-center gap-4">
