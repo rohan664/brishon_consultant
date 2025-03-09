@@ -15,7 +15,7 @@ function About(){
                 />
                 <div className="w-full h-full absolute bg-slate-500 bg-opacity-40"></div>
                 <div className="p-8 z-10">
-                    <p className="lg:text-4xl text-large font-bold text-[#fefae0]">On the team.</p>
+                    <p className="lg:text-4xl text-large font-bold text-[#fefae0]">On the team..</p>
                     <p className="lg:text-4xl text-large font-bold text-[#fefae0]">For the team.</p>
                 </div>
             </section>
