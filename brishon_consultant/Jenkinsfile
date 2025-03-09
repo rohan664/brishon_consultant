@@ -1,0 +1,58 @@
+pipeline {
+    agent any
+
+    environment {
+        DEPLOYMENT_SERVER_IP = '3.111.52.206'
+        DEPLOYMENT_USER = 'ec2-user'
+        SSH_KEY = credentials('deployment-server')
+        APP_NAME = 'brishon_consultant'
+        APP_DIR = '/home/ec2-user/brishon_consultant'
+    }
+
+    stages {
+        stage('Check SSH Connection') {
+            steps {
+                script {
+                    echo 'Testing SSH connection to the deployment server...'
+                    sh """
+                        ssh -i ${SSH_KEY} -o StrictHostKeyChecking=no ${DEPLOYMENT_USER}@${DEPLOYMENT_SERVER_IP} '
+                            echo "SSH connection successful!"
+                            whoami
+                        '
+                    """
+                }
+            }
+        }
+
+        stage('Deploy to Deployment Server') {
+            steps {
+                script {
+                    echo 'Deploying to the deployment server...'
+                    sh """
+                        ssh -i ${SSH_KEY} -o StrictHostKeyChecking=no ${DEPLOYMENT_USER}@${DEPLOYMENT_SERVER_IP} '
+                            echo "Connected to deployment server"
+                            echo "current user:\$(whoami)"
+                            echo "Current directory: \$(pwd)"
+                            cd ${APP_DIR}
+                            git pull origin main
+                            cd ${APP_NAME}
+                            npm install
+                            npm run build
+                            pm2 restart nextjs-app
+                            echo "Deployment completed"
+                        '
+                    """
+                }
+            }
+        }
+    }
+
+    post {
+        success {
+            echo 'Pipeline succeeded!'
+        }
+        failure {
+            echo 'Pipeline failed!'
+        }
+    }
+}
