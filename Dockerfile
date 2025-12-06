@@ -4,7 +4,9 @@ WORKDIR /app
 
 COPY . .
 
-RUN npm ci
+WORKDIR /app/brishon_consultant
+
+RUN npm i
 
 RUN npm run build
 
