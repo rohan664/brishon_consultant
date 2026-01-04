@@ -1,4 +1,4 @@
-name: PR security checks
+name: security-checks
 on:
   pull_request:
     types:
@@ -24,4 +24,3 @@ jobs:
         uses: gitleaks/gitleaks-action@v2
         env: 
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          
