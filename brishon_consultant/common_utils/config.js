@@ -1,0 +1,1 @@
+JWT_SECRET_KEY = 'Rohan@12345'
