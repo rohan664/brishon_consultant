@@ -1,1 +1,2 @@
 JWT_SECRET_KEY = 'Rohan@12345'
+JWT_ACCESS_TOKEN = 'Rohan'
