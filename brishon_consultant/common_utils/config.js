@@ -1,1 +1,0 @@
-JWT_SECRET_KEY = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eJzdsa87asd987asdhjasdhjashd'
