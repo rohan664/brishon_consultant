@@ -1,2 +1,1 @@
-JWT_SECRET_KEY = 'Rohan@12345'
-JWT_ACCESS_TOKEN = 'Rohan'
+JWT_SECRET_KEY = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eJzdsa87asd987asdhjasdhjashd'
